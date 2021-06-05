@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA6EC0817E56AD6C2E3348A8 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECC342D0F3255624E9804 /* ProjectsView.swift */; };
+		CA6EC34564C4E10A3DF7B684 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */; };
 		CA6EC393B2236FE30F8E9936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC77834CC1E8B53FCADB7 /* ContentView.swift */; };
 		CA6EC61F49D03F427CEE76EB /* SwiftFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */; };
 		CA6EC6A63514AC44EBB2C055 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECEE55C97B4775AD8C1E3 /* Item-CoreDataHelpers.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		CA6EC03CF64BC560FF84F28D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFolioApp.swift; sourceTree = "<group>"; };
+		CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		CA6EC561C6D8375B444DE44E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA6EC5DCC1A5F6716297BED1 /* SwiftFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftFolio.xcdatamodel; sourceTree = "<group>"; };
 		CA6EC77834CC1E8B53FCADB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				CA6ECC342D0F3255624E9804 /* ProjectsView.swift */,
 				CA6ECEE55C97B4775AD8C1E3 /* Item-CoreDataHelpers.swift */,
 				CA6EC84D41C4EFB2EDFD6316 /* Project-CoreDataHelpers.swift */,
+				CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */,
 			);
 			path = SwiftFolio;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				CA6EC0817E56AD6C2E3348A8 /* ProjectsView.swift in Sources */,
 				CA6EC6A63514AC44EBB2C055 /* Item-CoreDataHelpers.swift in Sources */,
 				CA6ECDF17F26BD07A2033DC9 /* Project-CoreDataHelpers.swift in Sources */,
+				CA6EC34564C4E10A3DF7B684 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,22 +10,26 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @SceneStorage("selectedView") var selectedView: String?
     var body: some View {
-        TabView {
+        TabView(selection: $selectedView) {
             AddView().tabItem {
                 Text("Add")
-            }
+            }.tag(AddView.tag)
             ProjectsView(showClosedProjects: false)
-                .tabItem {
-                    Image(systemName: "list.bullet")
-                    Text("Open")
-                }
+                    .tag(ProjectsView.openTag)
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("Open")
+                    }
 
 
-            ProjectsView(showClosedProjects: true).tabItem {
-                Image(systemName: "checkmark")
-                Text("Closed")
-            }
+            ProjectsView(showClosedProjects: true)
+                    .tag(ProjectsView.closedTag)
+                    .tabItem {
+                        Image(systemName: "checkmark")
+                        Text("Closed")
+                    }
         }
     }
 }
@@ -33,6 +37,7 @@ struct ContentView: View {
 struct AddView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(entity: Project.entity(), sortDescriptors: []) var projects: FetchedResults<Project>
+    static let tag: String? = "Home"
     var body: some View {
         NavigationView {
             VStack {

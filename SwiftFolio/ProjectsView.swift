@@ -6,6 +6,8 @@ import SwiftUI
 
 struct ProjectsView: View {
     @Environment(\.managedObjectContext) var moc
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
     let showClosedProjects: Bool
     let projects: FetchRequest<Project>
 
@@ -22,11 +24,21 @@ struct ProjectsView: View {
                 ForEach(projects.wrappedValue, id: \.self) { project in
                     Section(header: Text(project.projectTitle)) {
                         ForEach(project.projectItems, id:\.self) { item in
-                            Text(item.itemTitle)
+                            ItemRowView(item: item)
                         }
                     }
                 }
             }.navigationBarTitle(showClosedProjects ? "Closed Projects" : "Open Projects")
+        }
+    }
+}
+
+struct ItemRowView: View {
+    @ObservedObject var item: Item
+
+    var body: some View {
+        NavigationLink(destination: EditItemView(item: item)) {
+            Text(item.itemTitle)
         }
     }
 }
