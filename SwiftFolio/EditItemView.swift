@@ -41,7 +41,11 @@ struct EditItemView: View {
             Section {
                 Toggle("Mark Completed", isOn: $completed)
             }
-        }.navigationTitle("Edit Item").onDisappear(perform: update)
+        }.navigationTitle("Edit Item")
+         .onChange(of: title) {_ in update()}
+         .onChange(of: detail) {_ in update()}
+         .onChange(of: priority) {_ in update()}
+         .onChange(of: completed) {_ in update()}
 
     }
 
