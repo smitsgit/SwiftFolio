@@ -13,6 +13,7 @@
 		CA6EC61F49D03F427CEE76EB /* SwiftFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */; };
 		CA6EC6A63514AC44EBB2C055 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECEE55C97B4775AD8C1E3 /* Item-CoreDataHelpers.swift */; };
 		CA6EC6D2CAA45B308CD03E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6ECDC95C1E4EFF87769945 /* Assets.xcassets */; };
+		CA6EC913B09FA7F5B4FBFDFF /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */; };
 		CA6ECC86DEE963C0AAF97351 /* SwiftFolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC95B6044A6F105047C47 /* SwiftFolio.xcdatamodeld */; };
 		CA6ECDA86F7CF5BB430A5AE1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC03CF64BC560FF84F28D /* Persistence.swift */; };
 		CA6ECDF17F26BD07A2033DC9 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC84D41C4EFB2EDFD6316 /* Project-CoreDataHelpers.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		CA6EC03CF64BC560FF84F28D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFolioApp.swift; sourceTree = "<group>"; };
+		CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		CA6EC561C6D8375B444DE44E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA6EC5DCC1A5F6716297BED1 /* SwiftFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftFolio.xcdatamodel; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				CA6ECEE55C97B4775AD8C1E3 /* Item-CoreDataHelpers.swift */,
 				CA6EC84D41C4EFB2EDFD6316 /* Project-CoreDataHelpers.swift */,
 				CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */,
+				CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */,
 			);
 			path = SwiftFolio;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				CA6EC6A63514AC44EBB2C055 /* Item-CoreDataHelpers.swift in Sources */,
 				CA6ECDF17F26BD07A2033DC9 /* Project-CoreDataHelpers.swift in Sources */,
 				CA6EC34564C4E10A3DF7B684 /* EditItemView.swift in Sources */,
+				CA6EC913B09FA7F5B4FBFDFF /* Binding-OnChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
