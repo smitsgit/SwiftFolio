@@ -42,10 +42,9 @@ struct EditItemView: View {
                 Toggle("Mark Completed", isOn: $completed.onChange(update))
             }
         }.navigationTitle("Edit Item")
-         .onChange(of: title) {_ in update()}
-         .onChange(of: detail) {_ in update()}
-         .onChange(of: priority) {_ in update()}
-         .onChange(of: completed) {_ in update()}
+         .onDisappear {
+              try? moc.save()
+         }
 
     }
 
