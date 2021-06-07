@@ -14,7 +14,7 @@ extension Project {
     }
 
     var projectColor: String {
-        color ?? "Light Blue"
+        color ?? ["Light Blue", "Midnight", "Pink"].randomElement()!
     }
 
 

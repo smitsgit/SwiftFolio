@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C39747A266E5E70002E80C9 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C397479266E5E70002E80C9 /* Color.xcassets */; };
 		CA6EC0817E56AD6C2E3348A8 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECC342D0F3255624E9804 /* ProjectsView.swift */; };
 		CA6EC34564C4E10A3DF7B684 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */; };
 		CA6EC393B2236FE30F8E9936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC77834CC1E8B53FCADB7 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C397479266E5E70002E80C9 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		CA6EC03CF64BC560FF84F28D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFolioApp.swift; sourceTree = "<group>"; };
 		CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				CA6ECC49D0E0463BD7136BC5 /* Info.plist */,
 				CA6ECDC95C1E4EFF87769945 /* Assets.xcassets */,
+				2C397479266E5E70002E80C9 /* Color.xcassets */,
 				CA6EC06463EF1FA5EB563A1B /* Preview Content */,
 				CA6EC0DB965C4DCCA0995EA0 /* SwiftFolioApp.swift */,
 				CA6EC77834CC1E8B53FCADB7 /* ContentView.swift */,
@@ -118,11 +121,14 @@
 /* Begin PBXProject section */
 		CA6ECAA325CC1BF60B138780 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = CA6EC87041C69713FDD1788F /* Build configuration list for PBXProject "SwiftFolio" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CA6ECC1471BEBD3A76C77174;
@@ -142,6 +148,7 @@
 			files = (
 				CA6EC6D2CAA45B308CD03E4C /* Assets.xcassets in Resources */,
 				CA6ECDF7F0CBFBC241A6D15D /* Preview Assets.xcassets in Resources */,
+				2C39747A266E5E70002E80C9 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +285,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -337,6 +343,7 @@
 				CA6EC932A274A6DC5180C3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

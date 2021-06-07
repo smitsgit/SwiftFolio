@@ -12,12 +12,13 @@ struct ProjectHeaderView: View {
             VStack(alignment: .leading) {
                Text(project.projectTitle)
                ProgressView(value: project.completionAmount)
-            }
+                       .accentColor(Color(project.projectColor))
+            }.padding(.bottom, 10)
 
             Spacer()
 
             NavigationLink(destination: EmptyView()) {
-                Image(systemName: "square.and.pencil")
+                Image(systemName: "square.and.pencil").imageScale(.large)
             }
         }
 
