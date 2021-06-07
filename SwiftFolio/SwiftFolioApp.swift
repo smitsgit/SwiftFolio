@@ -16,13 +16,11 @@ struct SwiftFolioApp: App {
         WindowGroup(content: {
             ContentView()
                     .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotificatio)) {
-                        save(<#T##note: Notification##Foundation.Notification#>)
-                    }
+                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: save)
         })
     }
 
     func save(_ note: Notification) {
-        dataController.save()
+        persistenceController.save()
     }
 }

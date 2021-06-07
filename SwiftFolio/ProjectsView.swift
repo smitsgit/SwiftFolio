@@ -22,7 +22,7 @@ struct ProjectsView: View {
         NavigationView {
             List {
                 ForEach(projects.wrappedValue, id: \.self) { project in
-                    Section(header: Text(project.projectTitle)) {
+                    Section(header: ProjectHeaderView(project: project)) {
                         ForEach(project.projectItems, id:\.self) { item in
                             ItemRowView(item: item)
                         }
