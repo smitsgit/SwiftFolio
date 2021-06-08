@@ -15,6 +15,7 @@
 		CA6EC6A63514AC44EBB2C055 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECEE55C97B4775AD8C1E3 /* Item-CoreDataHelpers.swift */; };
 		CA6EC6D2CAA45B308CD03E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6ECDC95C1E4EFF87769945 /* Assets.xcassets */; };
 		CA6EC913B09FA7F5B4FBFDFF /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */; };
+		CA6ECAB280FC9EE56D7D6486 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECB7ADA87F3862C8C80DA /* EditProjectView.swift */; };
 		CA6ECBF164FC4A0304619AB9 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECC9F98803F6FBC1C8514 /* ProjectHeaderView.swift */; };
 		CA6ECC86DEE963C0AAF97351 /* SwiftFolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC95B6044A6F105047C47 /* SwiftFolio.xcdatamodeld */; };
 		CA6ECDA86F7CF5BB430A5AE1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC03CF64BC560FF84F28D /* Persistence.swift */; };
@@ -32,6 +33,7 @@
 		CA6EC5DCC1A5F6716297BED1 /* SwiftFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftFolio.xcdatamodel; sourceTree = "<group>"; };
 		CA6EC77834CC1E8B53FCADB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA6EC84D41C4EFB2EDFD6316 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CA6ECB7ADA87F3862C8C80DA /* EditProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		CA6ECC342D0F3255624E9804 /* ProjectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		CA6ECC49D0E0463BD7136BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		CA6ECC9F98803F6FBC1C8514 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				CA6EC25F8112C2BD9BA4F0FA /* EditItemView.swift */,
 				CA6EC16F24AA63EE5C1DF58F /* Binding-OnChange.swift */,
 				CA6ECC9F98803F6FBC1C8514 /* ProjectHeaderView.swift */,
+				CA6ECB7ADA87F3862C8C80DA /* EditProjectView.swift */,
 			);
 			path = SwiftFolio;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				CA6EC34564C4E10A3DF7B684 /* EditItemView.swift in Sources */,
 				CA6EC913B09FA7F5B4FBFDFF /* Binding-OnChange.swift in Sources */,
 				CA6ECBF164FC4A0304619AB9 /* ProjectHeaderView.swift in Sources */,
+				CA6ECAB280FC9EE56D7D6486 /* EditProjectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
